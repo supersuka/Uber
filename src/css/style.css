@@ -183,3 +183,7 @@ nav {
     background-color: #1eacc7;
     border-radius: 100%;
 }
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
