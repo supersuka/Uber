@@ -30,3 +30,7 @@ nav{
     height: 84px;
     background-color: rgba(0,0,0, .6);
 }
+
+.subheader .subheader_logo {
+    max-width: 100%;
+}
