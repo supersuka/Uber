@@ -32,10 +32,13 @@ nav{
 }
 
 .subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
     max-width: 100%;
 }
 
 .subheader .subheader_official {
+    margin-top: 6px;
     opacity: 0.5;
     color: #ffffff;
     font-size: 13px;
