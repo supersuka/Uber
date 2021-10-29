@@ -187,3 +187,10 @@ nav {
 .reasons .reasons_block .reasons_descr {
     width: 343px;
 }
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
