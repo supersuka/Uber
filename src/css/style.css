@@ -34,3 +34,10 @@ nav{
 .subheader .subheader_logo {
     max-width: 100%;
 }
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
