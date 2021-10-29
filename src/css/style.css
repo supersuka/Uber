@@ -194,3 +194,10 @@ nav {
     font-size: 17px;
     font-weight: 400;
 }
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
