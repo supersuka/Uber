@@ -25,3 +25,8 @@ nav{
     border-right: 2px dotted black;
     padding-right: 28px;
 }
+
+.subheader {
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+}
