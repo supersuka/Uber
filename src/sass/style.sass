@@ -260,20 +260,22 @@ nav
             margin: 0 auto
             border-radius: 100%
             cursor: pointer
-            &::before
+            &:before
                 content: ''
                 display: block
                 width: 14px
                 height: 2px
                 background-color: $main-color
-            &::after
+            &:after
                 content: ''
                 position: absolute
                 display: block
                 height: 14px
                 width: 2px
                 background-color: $main-color
-
+            &:hover
+                &:before, &:after
+                    background-color: $second-color
 .choice
     position: relative
     min-height: 895px
@@ -298,3 +300,5 @@ nav
         font-size: 17px
         font-weight: 300
         line-height: 24px
+    
+        
