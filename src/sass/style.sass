@@ -132,6 +132,7 @@ nav
     padding: 71px 0 65px 0
 
 .label
+    position: relative
     margin: 0 auto
     height: 24px
     width: 112px
@@ -142,8 +143,13 @@ nav
     font-weight: 300
     text-transform: uppercase
     text-align: center
+    z-index: 2
+    &_white
+        background-color: #fff
+        color: #000
 
 .title
+    position: relative
     margin-bottom: 0
     margin-top: 38px
     color: #222222
@@ -151,13 +157,20 @@ nav
     font-weight: 700
     text-transform: uppercase
     text-align: center
+    z-index: 2
+    &_white
+        color: #fff
 
 .subtitle
+    position: relative
     margin-top: 19px
     color: #222222
     font-size: 17px
     font-weight: 400
     text-align: center
+    z-index: 2
+    &_white
+        color: #fff
 
 .reasons .reasons_block
     display: flex
