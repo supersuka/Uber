@@ -21,12 +21,12 @@ nav
     margin: 0
     list-style-type: none
 
-    .menu_link
+    &_link
         color: #ffffff
         font-size: 15px
         font-weight: 300
 
-    .menu_item
+    &_item
         border-right: 2px dotted black
         padding-right: 28px
 
@@ -37,26 +37,26 @@ nav
     height: 84px
     background-color: rgba(0, 0, 0, 0.6)
 
-    .subheader_logo
+    &_logo
         display: block
         margin-top: 16px
         max-width: 100%
 
-    .subheader_official
+    &_official
         margin-top: 6px
         opacity: 0.5
         color: #ffffff
         font-size: 13px
         font-weight: 400
 
-    .subheader_call
+    &_call
         color: #ffffff
         font-size: 12px
         font-weight: 300
         margin-top: 19px
         text-align: right
 
-    .subheader_phone
+    &_phone
         display: block
         margin-top: 8px
         color: #ffffff
@@ -66,7 +66,7 @@ nav
         text-align: right
         line-height: 12px
 
-    .subheader_btn
+    &_btn
         margin-top: 19px
         width: 172px
         height: 46px
@@ -86,7 +86,7 @@ nav
     min-height: 800px
     background: url('../img/bg/main_bg.jpg') center (center / cover) no-repeat
 
-    .promo_header
+    &_header
         color: #ffffff
         font-weight: 700
         text-transform: uppercase
@@ -95,7 +95,7 @@ nav
         text-align: center
         line-height: 60px
 
-    .promo_subheader
+    &_subheader
         color: #ffffff
         font-weight: 700
         text-transform: uppercase
@@ -105,7 +105,7 @@ nav
         margin-top: 22px
         text-align: center
 
-    .promo_descr
+    &_descr
         color: #ffffff
         font-size: 18px
         font-weight: 400
@@ -113,7 +113,7 @@ nav
         text-align: center
         margin-top: 23px
 
-    .promo_btn
+    &_btn
         display: block
         margin: 118px auto 0 auto
         width: 259px
@@ -127,9 +127,6 @@ nav
         font-size: 18px
         font-weight: 400
         text-transform: uppercase
-
-.reasons
-    padding: 71px 0 65px 0
 
 .label
     position: relative
@@ -172,32 +169,35 @@ nav
     &_white
         color: #fff
 
-.reasons .reasons_block
-    display: flex
-    justify-content: center
-    align-items: center
-    margin-top: 35px
+.reasons
+    padding: 71px 0 65px 0
 
-.reasons_round
-    display: flex
-    justify-content: center
-    align-items: center
-    margin-right: 26px
-    width: 113px
-    height: 113px
-    background-color: #1eacc7
-    border-radius: 100%
+    &_block
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 35px
 
-.reasons_descr
-    width: 343px
+    &_round
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-right: 26px
+        width: 113px
+        height: 113px
+        background-color: #1eacc7
+        border-radius: 100%
 
-    .reasons_subtitle
+    &_descr
+        width: 343px
+
+    &_subtitle
         line-height: 21px
         color: #1eacc7
         font-size: 17px
         font-weight: 400
 
-    .reasons_text
+    &_text
         color: #202020
         font-size: 15px
         font-weight: 300
